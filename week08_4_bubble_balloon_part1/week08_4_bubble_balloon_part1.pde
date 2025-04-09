@@ -10,7 +10,7 @@ void draw(){
   if(mousePressed) s++; // 一直壓著,才會打氣
 }
 void mousePressed(){ //按下mouse改變氣球位置、大小
-  x = mouseX; // 
+  x = mouseX;
   y = mouseY;
   s = 1; // 大小設成數字 1
 }
